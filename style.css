@@ -1,0 +1,218 @@
+
+/* header part start  */
+
+body {
+    margin: auto;
+}
+
+.ssf-hp-mb{
+    background-image: url(https://3dmodelsworld.com/wp-content/uploads/edd/2020/09/sneakers-white-pbr-3d-model-physically-based-rendering-6.jpg);
+    height: 900px;
+    background-size: cover;
+}
+.ssf-hp-b1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid tomato;
+    border: none;
+}
+
+nav {
+    display: block;
+}
+
+
+.nav-sec nav a {
+    font-size: 20px;
+    margin-left: 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-sec nav a:hover {
+    color: black;
+}
+
+.btn button {
+    font-size: 20px;
+    padding: 15px 40px 15px 40px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+    background-color: blueviolet;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* header part start  */
+
+
+
+/* hero section part-1 start  */
+
+.headline {
+    padding: 50px 0px 20px 0px;
+    width: 700px;
+    font-size: 50px;
+    margin: auto;
+    margin-bottom: 30px;
+    color: blueviolet;
+}
+
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.container .box{
+    position: relative;
+    width: 470px;
+    height: 320px;
+    transition: 0.5s;
+    overflow: hidden;
+}
+.container .box:hover{
+    z-index: 1;
+    transform: scale(1.25);
+    box-shadow: 0 25px 40px rgb(0,0,0.5);
+}
+.container .box .imagebx{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.container .box .imagebx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container .box .imagebx:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: linear-gradient(180deg,rgb(13, 68, 150),rgb(88, 3, 109));
+    mix-blend-mode: multiply;
+    opacity: 0;
+    transition: 0.5s;
+}
+.container .box:hover .imagebx:before{
+    opacity: 1;
+}
+.container .box .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+
+}
+.container .box .content h2{
+    color: white;
+    transition: 0.5s;
+    margin-bottom: 5px;
+    font-size: 30px;
+    transform: translateY(250px);
+}
+.container .box:hover .content h2{
+    transform: translateY(0);
+    transition-delay: 0.6s;
+}
+.container .box .content p{
+    color: white;
+    transition: 0.5s;
+    transform: translateY(250px);
+    font-size: 15px;
+}
+.container .box:hover .content p{
+    transform: translateY(0);
+    transition-delay: 0.8s;
+}
+
+
+/* hero section part-1 end   */
+
+
+/* hero section part-2 start   */
+
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.arrow .buy {
+    padding: 15px 30px 15px 30px;
+    background-color: blueviolet;
+    color:white;
+    border-radius: 50px;
+    font-size: 20px;
+    border: none;
+    margin-top: 50px;
+    transition: .5s;
+}
+
+/* hero section part-2 end   */
+
+
+/* hero section part-3 start  */
+
+
+.brand {
+    background-color: rgb(240, 232, 232);
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+.brand-head {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+
+.brand-head h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: blueviolet
+}
+
+.brand-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.brand-card img {
+    border-radius: 100%;
+    background-color: #fff;
+}
+
+/* hero section part-3 end   */
